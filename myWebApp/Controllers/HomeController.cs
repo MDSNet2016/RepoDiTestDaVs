@@ -22,7 +22,14 @@ namespace myWebApp.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "My Contact page.";
+
+            return View();
+        }
+
+        public ActionResult Mappa()
+        {
+            ViewBag.Message = "My Mappa page.";
 
             return View();
         }
